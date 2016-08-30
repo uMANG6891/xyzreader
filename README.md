@@ -4,14 +4,14 @@ I made this project while my Nanodegree program with Udacity. This app uses most
 
 ## Features of XYZReader
 
-- List of current matches in tabular form
-- Widget that shows Today's scores
+- All the stories in the main screen using RecyclerView
+- Detail screen is supported on multiple screens and orientationss
 
 ## Screenshots
 
-![](../master/screenshots/partrait_1.png)
+![](../master/screenshots/portrait_1.png)
 
-![](../master/screenshots/partrait_2.png)
+![](../master/screenshots/portrait_2.png)
 
 ![](../master/screenshots/landscape_1.png)
 
