@@ -1,6 +1,6 @@
 # Make Your App Material (Udacity Nanodegree Project - P5)
 
-I made this project while my Nanodegree program with Udacity. This app uses most of the Material guidelines.
+I made this project while my Nanodegree program with Udacity. This app uses all of the Material guidelines.
 
 ## Features of XYZReader
 
