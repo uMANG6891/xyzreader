@@ -21,7 +21,7 @@
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#C62828</color>
     <color name="colorAccent">#448AFF</color>
-    <color name="ltgray">#ffe0e0e0</color>
+
     <color name="text_dark">#424242</color>
     <color name="text_medium_dark">#888888</color>
 </resources>

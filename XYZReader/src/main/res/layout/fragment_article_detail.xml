@@ -23,7 +23,7 @@
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/detail_card_top_margin"
+                    android:layout_height="@dimen/detail_card_image"
                     android:scaleType="centerCrop"/>
 
                 <View
@@ -37,10 +37,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/detail_card_padding_bottom"
+                android:layout_marginLeft="@dimen/detail_inner_horiz_margin_zero"
+                android:layout_marginRight="@dimen/detail_inner_horiz_margin_zero"
                 android:layout_marginTop="@dimen/detail_card_top_margin"
                 android:background="#fff"
                 android:elevation="2dp"
-                android:maxWidth="@dimen/detail_card_max_width"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -51,10 +53,7 @@
                     android:layout_marginBottom="@dimen/detail_metabar_vert_padding"
                     android:background="#333"
                     android:orientation="vertical"
-                    android:paddingBottom="@dimen/detail_metabar_vert_padding"
-                    android:paddingLeft="@dimen/detail_inner_horiz_margin"
-                    android:paddingRight="@dimen/detail_inner_horiz_margin"
-                    android:paddingTop="@dimen/detail_metabar_vert_padding">
+                    android:padding="@dimen/detail_metabar_vert_padding">
 
                     <TextView
                         android:id="@+id/article_title"
@@ -81,11 +80,10 @@
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/detail_inner_horiz_margin"
-                    android:layout_marginRight="@dimen/detail_inner_horiz_margin"
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
+                    android:padding="@dimen/detail_metabar_vert_padding"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
-                    android:textColor="@color/ltgray"
+                    android:textColor="@color/text_dark"
                     android:textColorLink="@color/colorAccent"
                     android:textSize="@dimen/detail_body_text_size"/>
 
@@ -98,12 +96,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|end"
-        app:fabSize="normal"
         android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginRight="@dimen/detail_fab_right"
+        android:layout_marginTop="@dimen/detail_fab_top"
         android:background="@drawable/add_fab_background"
         android:contentDescription="@string/action_share"
-        android:src="@drawable/ic_share"/>
+        android:src="@drawable/ic_share"
+        app:fabSize="normal"/>
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
